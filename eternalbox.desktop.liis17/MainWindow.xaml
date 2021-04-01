@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:eternalbox.desktop.liis17"
         xmlns:eo="http://schemas.essentialobjects.com/wpf/"
         mc:Ignorable="d"
-        Title="Eternalbox Desktop (Beta)" Height="900" Width="950">
+        Title="Eternalbox Desktop (Alpha 0)" Height="900" Width="950">
     <Grid>
         <eo:WebControl>
             <eo:WebControl.WebView>
