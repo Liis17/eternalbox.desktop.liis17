@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eternalbox.desktop.liis17", "eternalbox.desktop.liis17\eternalbox.desktop.liis17.csproj", "{7C74C84B-4F4A-41C4-A571-022DD013BD42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eternalbox.desktop", "eternalbox.desktop\eternalbox.desktop.csproj", "{09E21853-CF05-4D9B-AFD0-7C6622CA7043}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,18 +24,6 @@ Global
 		{7C74C84B-4F4A-41C4-A571-022DD013BD42}.Release|x86.Build.0 = Release|x86
 		{7C74C84B-4F4A-41C4-A571-022DD013BD42}.UwU|Any CPU.ActiveCfg = UwU|Any CPU
 		{7C74C84B-4F4A-41C4-A571-022DD013BD42}.UwU|x86.ActiveCfg = UwU|x86
-		{09E21853-CF05-4D9B-AFD0-7C6622CA7043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09E21853-CF05-4D9B-AFD0-7C6622CA7043}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09E21853-CF05-4D9B-AFD0-7C6622CA7043}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{09E21853-CF05-4D9B-AFD0-7C6622CA7043}.Debug|x86.Build.0 = Debug|Any CPU
-		{09E21853-CF05-4D9B-AFD0-7C6622CA7043}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09E21853-CF05-4D9B-AFD0-7C6622CA7043}.Release|Any CPU.Build.0 = Release|Any CPU
-		{09E21853-CF05-4D9B-AFD0-7C6622CA7043}.Release|x86.ActiveCfg = Release|Any CPU
-		{09E21853-CF05-4D9B-AFD0-7C6622CA7043}.Release|x86.Build.0 = Release|Any CPU
-		{09E21853-CF05-4D9B-AFD0-7C6622CA7043}.UwU|Any CPU.ActiveCfg = UwU|x86
-		{09E21853-CF05-4D9B-AFD0-7C6622CA7043}.UwU|Any CPU.Build.0 = UwU|x86
-		{09E21853-CF05-4D9B-AFD0-7C6622CA7043}.UwU|x86.ActiveCfg = UwU|x86
-		{09E21853-CF05-4D9B-AFD0-7C6622CA7043}.UwU|x86.Build.0 = UwU|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
