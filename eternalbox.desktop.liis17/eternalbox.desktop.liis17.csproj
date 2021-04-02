@@ -15,7 +15,7 @@
     <Version>3</Version>
     <Platforms>AnyCPU;x86</Platforms>
     <RepositoryUrl>https://github.com/Liis17/eternalbox.desktop.liis17</RepositoryUrl>
-    <Configurations>a</Configurations>
+    <Configurations>a;UwU</Configurations>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
