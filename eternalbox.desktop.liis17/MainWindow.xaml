@@ -6,8 +6,6 @@
         xmlns:local="clr-namespace:eternalbox.desktop.liis17"
         xmlns:eo="http://schemas.essentialobjects.com/wpf/"
         mc:Ignorable="d"
-        xmlns:ui="http://schemas.modernwpf.com/2019"
-        ui:WindowHelper.UseModernWindowStyle="True"
         WindowStartupLocation="CenterScreen"
         WindowStyle="SingleBorderWindow"
         x:Name="WindowMain"
