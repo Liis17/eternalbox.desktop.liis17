@@ -24,6 +24,7 @@ Global
 		{7C74C84B-4F4A-41C4-A571-022DD013BD42}.Release|x86.Build.0 = Release|x86
 		{7C74C84B-4F4A-41C4-A571-022DD013BD42}.UwU|Any CPU.ActiveCfg = UwU|Any CPU
 		{7C74C84B-4F4A-41C4-A571-022DD013BD42}.UwU|x86.ActiveCfg = UwU|x86
+		{7C74C84B-4F4A-41C4-A571-022DD013BD42}.UwU|x86.Build.0 = UwU|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

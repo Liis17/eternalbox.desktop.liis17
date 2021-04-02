@@ -16,6 +16,9 @@
     <Platforms>AnyCPU;x86</Platforms>
     <RepositoryUrl>https://github.com/Liis17/eternalbox.desktop.liis17</RepositoryUrl>
     <Configurations>a;UwU</Configurations>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -25,6 +28,8 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UwU|x86'">
     <Optimize>true</Optimize>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <ErrorReport>none</ErrorReport>
   </PropertyGroup>
 
   <ItemGroup>

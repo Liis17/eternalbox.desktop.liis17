@@ -1,1 +1,10 @@
-{}
+{
+  "profiles": {
+    "eternalbox.desktop.liis17": {
+      "commandName": "Project"
+    },
+    "edl": {
+      "commandName": "Project"
+    }
+  }
+}

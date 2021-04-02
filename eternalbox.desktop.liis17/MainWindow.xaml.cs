@@ -19,9 +19,6 @@ using DiscordRPC.Logging;
 
 namespace eternalbox.desktop.liis17
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
 		#region customization
@@ -75,11 +72,11 @@ namespace eternalbox.desktop.liis17
 			client.SetPresence(new RichPresence()
 			{
 				Details = "Listens to Eternal Jukebox",
-				State = "...",
+				State = "Should there be a time?",
 				Assets = new Assets()
 				{
 					LargeImageKey = "eternal",
-					LargeImageText = "The Eternal Jukebox",
+					LargeImageText = "github.com/Liis17/eternalbox.desktop.liis17",
 					SmallImageKey = "image_small"
 				}
 			});
