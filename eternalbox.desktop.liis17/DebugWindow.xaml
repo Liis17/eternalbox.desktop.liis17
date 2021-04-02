@@ -1,0 +1,14 @@
+﻿<Window x:Class="eternalbox.desktop.liis17.DebugWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eternalbox.desktop.liis17"
+        mc:Ignorable="d"
+        Title="DebugWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="HeightMainWindow" HorizontalAlignment="Left" Margin="10,10,0,0" Text="Height=" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
+        <TextBlock x:Name="WidthMainWindow" HorizontalAlignment="Left" Margin="10,26,0,0" Text="Width=" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
+
+    </Grid>
+</Window>

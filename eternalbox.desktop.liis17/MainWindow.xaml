@@ -6,12 +6,11 @@
         xmlns:local="clr-namespace:eternalbox.desktop.liis17"
         xmlns:eo="http://schemas.essentialobjects.com/wpf/"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="SingleBorderWindow"
+      
         Title="Eternalbox Desktop (Alpha 1)" Height="900" Width="950" Closed="Window_Closed">
     <Grid>
-
-       
-        
-        
         <eo:WebControl>
             <eo:WebControl.WebView>
                 <eo:WebView ZoomFactor="0.75" x:Name="webmain" Url="eternalbox.dev">
