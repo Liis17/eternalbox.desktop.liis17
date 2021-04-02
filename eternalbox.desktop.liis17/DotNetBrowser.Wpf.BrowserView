@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using DotNetBrowser.Wpf;
+
+namespace eternalbox.desktop.liis17
+{
+    class DotNetBrowser
+    {
+        BrowserView view = new BrowserView();
+        view.InitializeFrom(browser);
+    }
+}
