@@ -24,28 +24,34 @@ namespace eternalbox.desktop.liis17
     /// </summary>
     public partial class MainWindow : Window
     {
+		#region customization
+
+		public bool discordrpc = true;
+
+
+        #endregion
         public DiscordRpcClient client;
 
         public MainWindow()
         {
             InitializeComponent();
-			Initialize();
+			DebugWindow dw = new DebugWindow();
+			dw.Show();
+
+			if (discordrpc == true)
+            {
+				InitializeDiscord();
+			}
+			
 
 		}
 
-		void Initialize()
+		void InitializeDiscord()
 		{
-			/*
-			Create a Discord client
-			NOTE: 	If you are using Unity3D, you must use the full constructor and define
-					 the pipe connection.
-			*/
 			client = new DiscordRpcClient("827472021759197194");
 
-			//Set the logger
 			client.Logger = new ConsoleLogger() { Level = LogLevel.Warning };
 
-			//Subscribe to events
 			client.OnReady += (sender, e) =>
 			{
 				Console.WriteLine("Received Ready from user {0}", e.User.Username);
@@ -72,11 +78,19 @@ namespace eternalbox.desktop.liis17
 					SmallImageKey = "image_small"
 				}
 			});
-		}
+		} //discord
 
         private void Window_Closed(object sender, EventArgs e)
         {
 			client.Dispose();
-        }
+		} //closed window 
+
+        private void Window_SizeChanger(object sender, SizeChangedEventArgs e)
+        {
+			int h = (int)WindowMain.Height;
+			int w = (int)WindowMain.Width;
+
+			DebugWindow.SizeChanger(h, w);
+		}
     }
 }

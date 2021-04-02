@@ -8,8 +8,8 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         WindowStyle="SingleBorderWindow"
-      
-        Title="Eternalbox Desktop (Alpha 1)" Height="900" Width="950" Closed="Window_Closed">
+        x:Name="WindowMain"
+        Title="Eternalbox Desktop (Alpha 1)" Height="900" Width="950" Closed="Window_Closed" SizeChanged="Window_SizeChanger">
     <Grid>
         <eo:WebControl>
             <eo:WebControl.WebView>
