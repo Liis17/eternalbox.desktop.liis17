@@ -30,13 +30,18 @@ namespace eternalbox.desktop.liis17
 
 
         #endregion
+
         public DiscordRpcClient client;
 
         public MainWindow()
         {
             InitializeComponent();
+
 			DebugWindow dw = new DebugWindow();
 			dw.Show();
+
+			Customization c = new Customization();
+			c.Show();
 
 			if (discordrpc == true)
             {
